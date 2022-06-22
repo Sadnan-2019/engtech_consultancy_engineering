@@ -1,8 +1,12 @@
 import React from 'react';
+import './Infrastructure.css'
 
 const Infrastructure = () => {
      return (
           <div>
+                <h2 className="text-center text-slate-800 text-4xl font-bold   py-10">
+        Our Infrastructure
+      </h2>
                <div class="grid sm:grid-rows-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-10 py-20">
                     
                     

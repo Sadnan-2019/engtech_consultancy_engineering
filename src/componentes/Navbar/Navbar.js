@@ -5,35 +5,35 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/" className="m-2 font-bold">
+        <Link to="/" className="m-2 font-bold text-green-500">
           Home
         </Link>
       </li>
 
       <li>
-        <Link to="/about" className="m-2 font-bold">
+        <Link to="/about" className="m-2 font-bold text-green-500">
           About
         </Link>
       </li>
       <li>
-        <Link to="/" className="m-2 font-bold">
+        <Link to="/" className="m-2 font-bold text-green-500">
           Contact Us
         </Link>
       </li>
       <li>
-        <Link to="/" className="m-2 font-bold">
+        <Link to="/" className="m-2 font-bold text-green-500">
           Review
         </Link>
       </li>
       <li>
-        <Link to="/" className="m-2 font-bold">
+        <Link to="/" className="m-2 font-bold text-green-500">
           Book Service
         </Link>
       </li>
     </>
   );
   return (
-    <div class="   navbar bg-neutral-800 sticky top-0 ">
+    <div class="navbar bg-slate-800 sticky top-0 ">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
