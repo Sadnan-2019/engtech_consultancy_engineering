@@ -1,29 +1,39 @@
 import React from "react";
-import { Link,  } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import "./Navber.css";
 const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/" className="m-2">Home</Link>
+        <Link to="/" className="m-2 font-bold">
+          Home
+        </Link>
       </li>
 
       <li>
-        <Link to="/about" className="m-2">About</Link>
+        <Link to="/about" className="m-2 font-bold">
+          About
+        </Link>
       </li>
       <li>
-        <Link to="/" className="m-2">Contact Us</Link>
+        <Link to="/" className="m-2 font-bold">
+          Contact Us
+        </Link>
       </li>
       <li>
-        <Link to="/" className="m-2">Review</Link>
+        <Link to="/" className="m-2 font-bold">
+          Review
+        </Link>
       </li>
       <li>
-        <Link to="/" className="m-2">Book Service</Link>
+        <Link to="/" className="m-2 font-bold">
+          Book Service
+        </Link>
       </li>
     </>
   );
   return (
-    <div class="   navbar bg-base-100 ">
+    <div class="   navbar bg-neutral-800 sticky top-0 ">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -46,17 +56,15 @@ const Navbar = () => {
             tabindex="0"
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-          {menuItems}
+            {menuItems}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-sm">
-          ENGTECH <br></br>consultancy and Engineering
+        <a class="btn btn-ghost normal-case text-sm" href="/" className="logo">
+          <img alt="" src="https://i.ibb.co/Zmsbx6F/rubel.png" />
         </a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
-          {menuItems}
-        </ul>
+        <ul class="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
       <div class="navbar-end">
         <a class="btn">Get started</a>

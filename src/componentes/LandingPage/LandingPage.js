@@ -5,9 +5,9 @@ const LandingPage = () => {
 
       <div>
 
-<h2 className="text-center text-slate-800 text-4xl font-bold   py-10">
+{/* <h2 className="text-center text-slate-800 text-4xl font-bold   py-10">
         Our Gallary
-      </h2>
+      </h2> */}
               <div className='py-10' 
           data-aos="fade-up"
           data-aos-offset="300"
@@ -21,9 +21,9 @@ const LandingPage = () => {
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold text-slate-50">Hello there</h1>
-              <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <button class="btn btn-primary">More Gallary</button>
+              <h1 class="mb-5 text-5xl font-bold text-slate-50">New Complex</h1>
+              <p class="mb-5 text-2xl font-bold text-slate-50">Home / New complex</p>
+              {/* <button class="btn btn-primary">More Gallary</button> */}
             </div>
           </div>
         </div>
